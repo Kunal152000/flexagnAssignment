@@ -1,0 +1,74 @@
+#home {
+  display: flex;
+}
+.home-right {
+  margin-top: 100px;
+}
+.download-img {
+  display: flex;
+  margin-left: -10px;
+}
+.appstore {
+  margin-top: 9px;
+}
+.homeleft {
+  margin: 30px;
+  padding: 100px;
+  width: 40%;
+}
+.home-para1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1150px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeleft {
+    margin-top: 150px;
+    width: 100%;
+  }
+  .home-para1 {
+    font-size: 30px;
+  }
+  .home-right img {
+    width: 500px;
+    margin-top: -100px;
+  }
+}
+@media (max-width: 900px) {
+  #home {
+    margin-top: -200px;
+  }
+}
+@media (max-width: 450px) {
+  .home-para1 {
+    width: 70vw;
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  #home {
+    margin-top: -100px;
+  }
+  .home-right img {
+    width: 300px;
+  }
+  .home-para2 {
+    text-align: center;
+  }
+  .download-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 551px) and (max-width: 899px) {
+  #home {
+    margin-top: -50px;
+  }
+}
